@@ -1,0 +1,175 @@
+/* style.css */
+
+/* Body and container */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f6f8;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0073b1;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #005582;
+    border-radius: 0.25rem;
+}
+
+/* Cards */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 0.1);
+}
+
+/* Card headers */
+.card-header {
+    background-color: #0073b1;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Avatar icons */
+.avatar i.fa-user-circle {
+    border-radius: 50%;
+    background-color: #e1e9f6;
+    padding: 0.2rem;
+}
+
+/* Color coding for avatars in different states */
+.fa-user-clock {
+    color: #0d6efd;
+}
+
+.fa-user-circle.text-primary {
+    color: #0d6efd;
+}
+
+.fa-user-circle.text-success {
+    color: #198754;
+}
+
+.fa-user-circle.text-warning {
+    color: #ffc107;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #0073b1;
+    border-color: #0073b1;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #005582;
+    border-color: #005582;
+}
+
+.btn-outline-primary {
+    color: #0073b1;
+    border-color: #0073b1;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0073b1;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Badges */
+.badge.bg-primary {
+    background-color: #0073b1;
+}
+
+.badge.bg-success {
+    background-color: #198754;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* Text Muted */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Alerts */
+.alert {
+    margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .btn-group, form {
+        width: 100%;
+        display: flex !important;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    .btn-group button,
+    form button {
+        flex: 1;
+    }
+}
+
+/* Filled placeholders */
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-6 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.border-end {
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.fas,
+.fa-chart-bar {
+    vertical-align: middle;
+}
